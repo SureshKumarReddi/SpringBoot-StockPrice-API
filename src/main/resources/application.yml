@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: STOCK-PRICE-API
+  datasource:
+    url: jdbc:mysql://localhost:3306/testdb
+    username: root
+    password: Mysql@143
+    driver-class-name: com.mysql.cj.jdbc.Driver 
+  jpa:
+    properties:
+      hibernate.ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect  
+    show-sql: true
+    generate-ddl: true 
+server:
+  port: 9090
+  
+
+
+
+
+  
+ 
